@@ -8,7 +8,7 @@ function dynamicAgeReplace(...args) {
 }
 
 function showContacts() {
-    alert("Email: vozian.va@gmail.com\nLinkedIn: linkedin.com/vvozian")
+    alert("Email: vozian.va@gmail.com\nLinkedIn: https://www.linkedin.com/in/vvozian/")
 }
 
 (() => { dynamicAgeReplace() })()
