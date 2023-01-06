@@ -1,0 +1,10 @@
+{
+  "edges": [
+    {
+      "id": "3",
+      "title": "About pure JS",
+      "content": "It was great to work with pure JS. Without TS, node, frameworks, etc. I felt like I had full controll over the process. "
+    }
+  ],
+  "nextCursor": "123HqUWa"
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vladislav Voziyan | Blog site</title>
+    <link rel="stylesheet" href="./styles/pages/index.css">
+</head>
+
+<body>
+    <div class="page-wrap--outer mixin--dashed-border--left mixin--dashed-border--right">
+        <div class="page-wrap--inner mixin--dashed-border--left mixin--dashed-border--right">
+            <section class="section--top-banner">
+                <div class="section--top-banner--main-content">
+                    <h1>Vladislav Voziyan</h1>
+                    <a href="mailto:vozian.va@gmail.com">vozian.va@gmail.com</a>
+                </div>
+            </section>
+            <hr class="mixin--dashed-border--top">
+            <section class="section--about">
+                <h2>Who am I?</h2>
+                <p id="paragraph-about-1">
+                    Hi. My name is Vladislav Voziyan. I'm {{age}} years old. Currently I'm a student at Centria
+                    University of Applied Sciences. I'm very passioned about web development. Also, I'm working at
+                    Livion Oy - Kokkola based IT/IOT company
+                </p>
+                <div class="spacer--horizontal--l"></div>
+            </section>
+            <section class="section--info">
+                <div class="block--info--wrap mixin--dashed-border--full">
+                    <img src="https://www.itewiki.fi/write/logos/livion.png" alt="" class="block--info--image">
+                    <p class="block--info--text">Since may 2022 I'm working at Livion Oy</p>
+                </div>
+                <div class="spacer--vertical--l hide-on--down--800"></div>
+                <div class="spacer--horizontal--l hide-on--up--800"></div>
+                <div class="block--info--wrap mixin--dashed-border--full">
+                    <img src="data:image/png;base64,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"
+                        alt="" class="block--info--image">
+                    <p class="block--info--text">Since august 2021 I'm a student at Centria UAS</p>
+                </div>
+            </section>
+            <hr class="mixin--dashed-border--top">
+            <section class="section--links">
+                <h2>Something else?</h2>
+                <div class="block--info--wrap mixin--dashed-border--full">
+                    <p class="block--info--text">There are some twitter-like posts available</p>
+                    <a href="./posts.html" class="button">Go to posts</a>
+                </div>
+                <div class="spacer--horizontal--m"></div>
+                <div class="block--info--wrap mixin--dashed-border--full">
+                    <p class="block--info--text">Do you want to play simple keyboard-based game?</p>
+                    <a href="#" class="button">Play game</a>
+                </div>
+                <div class="spacer--horizontal--m"></div>
+                <div class="block--info--wrap mixin--dashed-border--full">
+                    <p class="block--info--text">Also, there are some contact information</p>
+                    <button onclick="showContacts()" class="button">Show contact details</button>
+                </div>
+                <div class="spacer--horizontal--m"></div>
+            </section>
+        </div>
+    </div>
+    <script src="./js/utils.js"></script>
+    <script src="./js/pages/index.js"></script>
+</body>
+
+</html>

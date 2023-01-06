@@ -1,0 +1,36 @@
+@import url("./../main.css");
+@import url("./../common.css");
+@import url("./../mixins.css");
+@import url("./../variables.css");
+
+.section--header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.section--posts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.block--post {
+    display: flex;
+    flex-direction: column;
+    padding: var(--spacing-m);
+    width: 100%;
+}
+
+.block--post > h2 {
+    margin-bottom: var(--spacing-m);
+}
+
+.block--post:not(:last-of-type) {
+    margin-bottom: var(--spacing-m);
+}
+
+.section--posts > button.action--load-more {
+    margin-top: var(--spacing-m);
+}

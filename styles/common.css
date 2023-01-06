@@ -1,0 +1,90 @@
+@import url("./main.css");
+@import url("./variables.css");
+
+body {
+  width: 100%;
+  padding: 0 var(--spacing-m);
+}
+
+.page-wrap--outer {
+  width: 100%;
+  max-width: 1300px;
+  padding: 0 var(--spacing-l);
+  margin: 0 auto;
+}
+
+.page-wrap--inner {
+  width: 100%;
+  min-height: 100vh;
+}
+
+section {
+  padding: var(--spacing-l);
+}
+
+.spacer--horizontal--m {
+  height: var(--spacing-m);
+  flex-shrink: 0;
+}
+
+.spacer--horizontal--l {
+  height: var(--spacing-l);
+  flex-shrink: 0;
+}
+
+.spacer--vertical--l {
+  width: var(--spacing-l);
+  flex-shrink: 0;
+}
+
+.button {
+  background: var(--color-action-main);
+  color: var(--color-action-main-contrast);
+
+  padding: var(--spacing-m) var(--spacing-l);
+
+  border: none;
+  display: block;
+
+  cursor: pointer;
+
+  text-decoration: none;
+
+  font-size: 14px;
+  text-align: center;
+  line-height: 20px;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+}
+
+.button:hover {
+  background: var(--color-action-main-hover);
+}
+
+.button:disabled {
+  background: var(--color-action-disabled);
+  cursor: default;
+}
+
+@media screen and (max-width: 800px) {
+  .hide-on--down--800 {
+    display: none;
+  }
+
+  .page-wrap--outer {
+    padding: 0 var(--spacing-xs);
+  }
+  body {
+    padding: 0 var(--spacing-s);
+  }
+
+  section {
+    padding: var(--spacing-m);
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .hide-on--up--800 {
+    display: none;
+  }
+}

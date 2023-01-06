@@ -1,0 +1,75 @@
+@import url("./../main.css");
+@import url("./../common.css");
+@import url("./../mixins.css");
+@import url("./../variables.css");
+
+/* Overrites */
+
+.page-wrap--inner {
+  padding-bottom: var(--spacing-xl);
+  position: relative;
+}
+
+/* Local classes */
+
+.section--top-banner {
+  height: 100vh;
+}
+
+.section--top-banner--main-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  height: 100%;
+}
+
+.section--top-banner--main-content > h1 {
+  text-align: center;
+}
+
+.section--info {
+  display: flex;
+  flex-direction: row;
+  padding-top: 0;
+}
+
+.block--info--wrap {
+  flex: 0 1 auto;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding: var(--spacing-m);
+}
+
+.block--info--image {
+  width: 100px;
+  height: 100px;
+}
+
+.block--info--text {
+  padding: var(--spacing-m);
+  width: 100%;
+}
+
+.section--links {
+    display: flex;
+    flex-direction: column;
+}
+
+.section--links > h2 {
+    margin-bottom: var(--spacing-m);
+}
+
+@media screen and (max-width: 800px) {
+  .block--info--wrap {
+    flex-direction: column;
+  }
+  .section--info {
+    flex-direction: column;
+  }
+
+}

@@ -1,0 +1,25 @@
+/* 
+It's not actually "mixins", since it 
+can't be added to css class. 
+(Like it can be done in SASS and it's dialects)
+*/
+
+.mixin--dashed-border--full {
+    border: 1px dashed var(--color-separator-main) ;
+}
+
+.mixin--dashed-border--top {
+    border-top: 1px dashed var(--color-separator-main);
+}
+
+.mixin--dashed-border--right {
+    border-right: 1px dashed var(--color-separator-main);
+}
+
+.mixin--dashed-border--bottom {
+    border-bottom: 1px dashed var(--color-separator-main);
+}
+
+.mixin--dashed-border--left {
+    border-left: 1px dashed var(--color-separator-main);
+}

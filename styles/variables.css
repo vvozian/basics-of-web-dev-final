@@ -1,0 +1,25 @@
+:root {
+    /* Colors */
+    --color-background-main: #fff;
+    --color-background-contrast: #111;
+
+    --color-surface-main: #fafafa;
+    --color-surface-contrast: #111;
+
+    --color-action-main: #111;
+    --color-action-main-hover: #444;
+    --color-action-main-contrast: #fff;
+
+    --color-action-disabled: #888;
+    --color-action-contrast: #444;
+
+
+    --color-separator-main: #aaa;
+
+    /* Spacings */
+    --spacing-xl: 64px;
+    --spacing-l: 32px;
+    --spacing-m: 16px;
+    --spacing-s: 8px;
+    --spacing-xs: 4px;
+}

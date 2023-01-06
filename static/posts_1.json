@@ -1,0 +1,4 @@
+{"edges":[
+    {"id": "1", "title": "Latest post", "content": "It's the latest ever post here. I will never ever post anything more here."},
+    {"id": "2", "title": "Pre-latest post", "content": "Expect to see the latest ever post soon."}
+], "nextCursor": "aaabbb"}
